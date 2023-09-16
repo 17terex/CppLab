@@ -1,6 +1,6 @@
 # CppLab
 
-'''
+`
 #include <iostream>
 using namespace std;
 
@@ -24,4 +24,4 @@ int main ()
     cout<<"Poezdka oboidetsya v "<<totalp<<" rublei \n";
     cout<<"\n";
 }
-'''
+`
