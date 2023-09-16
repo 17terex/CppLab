@@ -25,3 +25,30 @@ int main ()
     cout<<"\n";
 }
 `
+
+IGRA UGADAI CHISLO
+`
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+    int a, n;
+    n = rand() % 100+1;
+    
+    do {
+        cout<< "Vvedite chislo:";
+        cin>>a;
+        if( a > n)
+        {
+            cout<<"Menshe"<<endl;
+        } else if(a < n){
+            cout<<"Bolshe"<<endl;
+        }
+    }
+    while (a != n);
+    cout<<"Pravilno"<<endl;
+    getch();
+}
+`
